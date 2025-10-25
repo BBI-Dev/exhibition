@@ -4,6 +4,7 @@
   "description": "This is the project for our school exhibition. We do some documenting here, as well as code our economy simulation.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/BBI-Dev/exhibition#readme",
   "dependencies": {
+    "express": "^5.1.0",
     "express-handlebars": "^8.0.3"
   }
 }
